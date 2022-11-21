@@ -15,7 +15,6 @@
 // To simplify things, we switch to using the byte-based variants if the "ermsb"
 // feature is present at compile-time. We don't bother detecting other features.
 // Note that ERMSB does not enhance the backwards (DF=1) "rep movsb".
-#![feature(generic_const_exprs)]
 
 use core::arch::asm;
 use core::intrinsics;

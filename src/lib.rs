@@ -11,6 +11,7 @@
 #![feature(linkage)]
 #![feature(naked_functions)]
 #![feature(repr_simd)]
+#![feature(generic_const_exprs)]
 #![no_builtins]
 #![no_std]
 #![allow(unused_features)]
